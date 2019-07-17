@@ -1,0 +1,840 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		695E51C055E610C8461F6842 /* Pods_RedeSocial_RedeSocialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C872AD3A8C526531BE2756 /* Pods_RedeSocial_RedeSocialTests.framework */; };
+		7BD0779B293085D115652240 /* Pods_RedeSocialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB5464745BBD66A4F6A7C30F /* Pods_RedeSocialTests.framework */; };
+		9EC951E4F1FEA6A36F745040 /* Pods_RedeSocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A13044DEE6C5538831EF28 /* Pods_RedeSocial.framework */; };
+		A94100875370A004592337F3 /* Pods_RedeSocial_RedeSocialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1024C151D5DA572D1F7B1F9 /* Pods_RedeSocial_RedeSocialUITests.framework */; };
+		AB968F0C22DF3EFB00D024DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB968F0B22DF3EFB00D024DE /* AppDelegate.swift */; };
+		AB968F0E22DF3EFB00D024DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB968F0D22DF3EFB00D024DE /* ViewController.swift */; };
+		AB968F1122DF3EFB00D024DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB968F0F22DF3EFB00D024DE /* Main.storyboard */; };
+		AB968F1322DF3EFD00D024DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB968F1222DF3EFD00D024DE /* Assets.xcassets */; };
+		AB968F1622DF3EFD00D024DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB968F1422DF3EFD00D024DE /* LaunchScreen.storyboard */; };
+		AB968F2122DF3EFE00D024DE /* RedeSocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB968F2022DF3EFE00D024DE /* RedeSocialTests.swift */; };
+		AB968F2C22DF3EFE00D024DE /* RedeSocialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB968F2B22DF3EFE00D024DE /* RedeSocialUITests.swift */; };
+		AB968F8522DF409A00D024DE /* CommonModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB968F8422DF409A00D024DE /* CommonModule.framework */; };
+		AB968F8622DF409A00D024DE /* CommonModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AB968F8422DF409A00D024DE /* CommonModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AB968FA322DF496800D024DE /* TestsHelpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB968FA222DF496800D024DE /* TestsHelpers.framework */; };
+		AB968FB622DF5ED800D024DE /* NoticiasModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB968FB522DF5ED800D024DE /* NoticiasModule.framework */; };
+		AB968FB722DF5ED800D024DE /* NoticiasModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AB968FB522DF5ED800D024DE /* NoticiasModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C6A5B16C61EF586DCD952CDA /* Pods_RedeSocialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39831836D8D78ADC5EC1FC9E /* Pods_RedeSocialUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB968F1D22DF3EFE00D024DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB968F0022DF3EFB00D024DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB968F0722DF3EFB00D024DE;
+			remoteInfo = RedeSocial;
+		};
+		AB968F2822DF3EFE00D024DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB968F0022DF3EFB00D024DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB968F0722DF3EFB00D024DE;
+			remoteInfo = RedeSocial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB968F8722DF409A00D024DE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AB968FB722DF5ED800D024DE /* NoticiasModule.framework in Embed Frameworks */,
+				AB968F8622DF409A00D024DE /* CommonModule.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		24A13044DEE6C5538831EF28 /* Pods_RedeSocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedeSocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A36286F31ED58499B69623D /* Pods-RedeSocialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedeSocialTests.release.xcconfig"; path = "Target Support Files/Pods-RedeSocialTests/Pods-RedeSocialTests.release.xcconfig"; sourceTree = "<group>"; };
+		39831836D8D78ADC5EC1FC9E /* Pods_RedeSocialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedeSocialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		539A8DDD8A4B9FBFDC486911 /* Pods-RedeSocialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedeSocialUITests.release.xcconfig"; path = "Target Support Files/Pods-RedeSocialUITests/Pods-RedeSocialUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5E9C97A696DCEA870D922C8A /* Pods-RedeSocial-RedeSocialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedeSocial-RedeSocialTests.release.xcconfig"; path = "Target Support Files/Pods-RedeSocial-RedeSocialTests/Pods-RedeSocial-RedeSocialTests.release.xcconfig"; sourceTree = "<group>"; };
+		7195C90772B34628C265228F /* Pods-RedeSocial-RedeSocialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedeSocial-RedeSocialTests.debug.xcconfig"; path = "Target Support Files/Pods-RedeSocial-RedeSocialTests/Pods-RedeSocial-RedeSocialTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F75EFBD06C8412FB57B3065 /* Pods-RedeSocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedeSocial.debug.xcconfig"; path = "Target Support Files/Pods-RedeSocial/Pods-RedeSocial.debug.xcconfig"; sourceTree = "<group>"; };
+		A4C872AD3A8C526531BE2756 /* Pods_RedeSocial_RedeSocialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedeSocial_RedeSocialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB968F0822DF3EFB00D024DE /* RedeSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedeSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB968F0B22DF3EFB00D024DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB968F0D22DF3EFB00D024DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB968F1022DF3EFB00D024DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB968F1222DF3EFD00D024DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB968F1522DF3EFD00D024DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB968F1722DF3EFD00D024DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB968F1C22DF3EFE00D024DE /* RedeSocialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedeSocialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB968F2022DF3EFE00D024DE /* RedeSocialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedeSocialTests.swift; sourceTree = "<group>"; };
+		AB968F2222DF3EFE00D024DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB968F2722DF3EFE00D024DE /* RedeSocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedeSocialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB968F2B22DF3EFE00D024DE /* RedeSocialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedeSocialUITests.swift; sourceTree = "<group>"; };
+		AB968F2D22DF3EFE00D024DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB968F8422DF409A00D024DE /* CommonModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CommonModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB968FA222DF496800D024DE /* TestsHelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TestsHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB968FB522DF5ED800D024DE /* NoticiasModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NoticiasModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB968FBB22DF679500D024DE /* NoticiasModule.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NoticiasModule.framework; path = "../../../../Library/Developer/Xcode/DerivedData/RedeSocial-ezqjxtgcexsskjcoaegxpshxhxik/Build/Products/Debug-iphoneos/NoticiasModule.framework"; sourceTree = "<group>"; };
+		DA22F8D7465561154DE2E932 /* Pods-RedeSocial-RedeSocialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedeSocial-RedeSocialUITests.debug.xcconfig"; path = "Target Support Files/Pods-RedeSocial-RedeSocialUITests/Pods-RedeSocial-RedeSocialUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB5464745BBD66A4F6A7C30F /* Pods_RedeSocialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedeSocialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB59995E4F3BEDC74FF12258 /* Pods-RedeSocial-RedeSocialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedeSocial-RedeSocialUITests.release.xcconfig"; path = "Target Support Files/Pods-RedeSocial-RedeSocialUITests/Pods-RedeSocial-RedeSocialUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DC8FD9B1801F9C96AC64D336 /* Pods-RedeSocialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedeSocialTests.debug.xcconfig"; path = "Target Support Files/Pods-RedeSocialTests/Pods-RedeSocialTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5F05F438F6F2D0149618DB5 /* Pods-RedeSocialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedeSocialUITests.debug.xcconfig"; path = "Target Support Files/Pods-RedeSocialUITests/Pods-RedeSocialUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E7B8CAA2571959B8CC2D9527 /* Pods-RedeSocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedeSocial.release.xcconfig"; path = "Target Support Files/Pods-RedeSocial/Pods-RedeSocial.release.xcconfig"; sourceTree = "<group>"; };
+		F1024C151D5DA572D1F7B1F9 /* Pods_RedeSocial_RedeSocialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedeSocial_RedeSocialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB968F0522DF3EFB00D024DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB968F8522DF409A00D024DE /* CommonModule.framework in Frameworks */,
+				9EC951E4F1FEA6A36F745040 /* Pods_RedeSocial.framework in Frameworks */,
+				AB968FB622DF5ED800D024DE /* NoticiasModule.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB968F1922DF3EFE00D024DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB968FA322DF496800D024DE /* TestsHelpers.framework in Frameworks */,
+				695E51C055E610C8461F6842 /* Pods_RedeSocial_RedeSocialTests.framework in Frameworks */,
+				7BD0779B293085D115652240 /* Pods_RedeSocialTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB968F2422DF3EFE00D024DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94100875370A004592337F3 /* Pods_RedeSocial_RedeSocialUITests.framework in Frameworks */,
+				C6A5B16C61EF586DCD952CDA /* Pods_RedeSocialUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A11836AB739F83A69E4788E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F75EFBD06C8412FB57B3065 /* Pods-RedeSocial.debug.xcconfig */,
+				E7B8CAA2571959B8CC2D9527 /* Pods-RedeSocial.release.xcconfig */,
+				7195C90772B34628C265228F /* Pods-RedeSocial-RedeSocialTests.debug.xcconfig */,
+				5E9C97A696DCEA870D922C8A /* Pods-RedeSocial-RedeSocialTests.release.xcconfig */,
+				DA22F8D7465561154DE2E932 /* Pods-RedeSocial-RedeSocialUITests.debug.xcconfig */,
+				DB59995E4F3BEDC74FF12258 /* Pods-RedeSocial-RedeSocialUITests.release.xcconfig */,
+				DC8FD9B1801F9C96AC64D336 /* Pods-RedeSocialTests.debug.xcconfig */,
+				2A36286F31ED58499B69623D /* Pods-RedeSocialTests.release.xcconfig */,
+				E5F05F438F6F2D0149618DB5 /* Pods-RedeSocialUITests.debug.xcconfig */,
+				539A8DDD8A4B9FBFDC486911 /* Pods-RedeSocialUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AB968EFF22DF3EFB00D024DE = {
+			isa = PBXGroup;
+			children = (
+				AB968FB522DF5ED800D024DE /* NoticiasModule.framework */,
+				AB968F0A22DF3EFB00D024DE /* RedeSocial */,
+				AB968F1F22DF3EFE00D024DE /* RedeSocialTests */,
+				AB968F2A22DF3EFE00D024DE /* RedeSocialUITests */,
+				AB968F0922DF3EFB00D024DE /* Products */,
+				AB968F8822DF40C100D024DE /* Frameworks */,
+				A11836AB739F83A69E4788E8 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		AB968F0922DF3EFB00D024DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB968F0822DF3EFB00D024DE /* RedeSocial.app */,
+				AB968F1C22DF3EFE00D024DE /* RedeSocialTests.xctest */,
+				AB968F2722DF3EFE00D024DE /* RedeSocialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB968F0A22DF3EFB00D024DE /* RedeSocial */ = {
+			isa = PBXGroup;
+			children = (
+				AB968F0B22DF3EFB00D024DE /* AppDelegate.swift */,
+				AB968F0D22DF3EFB00D024DE /* ViewController.swift */,
+				AB968F0F22DF3EFB00D024DE /* Main.storyboard */,
+				AB968F1222DF3EFD00D024DE /* Assets.xcassets */,
+				AB968F1422DF3EFD00D024DE /* LaunchScreen.storyboard */,
+				AB968F1722DF3EFD00D024DE /* Info.plist */,
+			);
+			path = RedeSocial;
+			sourceTree = "<group>";
+		};
+		AB968F1F22DF3EFE00D024DE /* RedeSocialTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB968F2022DF3EFE00D024DE /* RedeSocialTests.swift */,
+				AB968F2222DF3EFE00D024DE /* Info.plist */,
+			);
+			path = RedeSocialTests;
+			sourceTree = "<group>";
+		};
+		AB968F2A22DF3EFE00D024DE /* RedeSocialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB968F2B22DF3EFE00D024DE /* RedeSocialUITests.swift */,
+				AB968F2D22DF3EFE00D024DE /* Info.plist */,
+			);
+			path = RedeSocialUITests;
+			sourceTree = "<group>";
+		};
+		AB968F8822DF40C100D024DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB968FBB22DF679500D024DE /* NoticiasModule.framework */,
+				AB968FA222DF496800D024DE /* TestsHelpers.framework */,
+				AB968F8422DF409A00D024DE /* CommonModule.framework */,
+				24A13044DEE6C5538831EF28 /* Pods_RedeSocial.framework */,
+				A4C872AD3A8C526531BE2756 /* Pods_RedeSocial_RedeSocialTests.framework */,
+				F1024C151D5DA572D1F7B1F9 /* Pods_RedeSocial_RedeSocialUITests.framework */,
+				DB5464745BBD66A4F6A7C30F /* Pods_RedeSocialTests.framework */,
+				39831836D8D78ADC5EC1FC9E /* Pods_RedeSocialUITests.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB968F0722DF3EFB00D024DE /* RedeSocial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB968F3022DF3EFE00D024DE /* Build configuration list for PBXNativeTarget "RedeSocial" */;
+			buildPhases = (
+				41084290721AF6E44E8474D3 /* [CP] Check Pods Manifest.lock */,
+				AB968F0422DF3EFB00D024DE /* Sources */,
+				AB968F0522DF3EFB00D024DE /* Frameworks */,
+				AB968F0622DF3EFB00D024DE /* Resources */,
+				AB968F8722DF409A00D024DE /* Embed Frameworks */,
+				B4F4683A9BF7D5B0106A1DD1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedeSocial;
+			productName = RedeSocial;
+			productReference = AB968F0822DF3EFB00D024DE /* RedeSocial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB968F1B22DF3EFE00D024DE /* RedeSocialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB968F3322DF3EFE00D024DE /* Build configuration list for PBXNativeTarget "RedeSocialTests" */;
+			buildPhases = (
+				0FD28284D81BD76D4C152C1D /* [CP] Check Pods Manifest.lock */,
+				AB968F1822DF3EFE00D024DE /* Sources */,
+				AB968F1922DF3EFE00D024DE /* Frameworks */,
+				AB968F1A22DF3EFE00D024DE /* Resources */,
+				0A4744096F31177D4267B552 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB968F1E22DF3EFE00D024DE /* PBXTargetDependency */,
+			);
+			name = RedeSocialTests;
+			productName = RedeSocialTests;
+			productReference = AB968F1C22DF3EFE00D024DE /* RedeSocialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB968F2622DF3EFE00D024DE /* RedeSocialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB968F3622DF3EFE00D024DE /* Build configuration list for PBXNativeTarget "RedeSocialUITests" */;
+			buildPhases = (
+				7C661742468F02518DA44C71 /* [CP] Check Pods Manifest.lock */,
+				AB968F2322DF3EFE00D024DE /* Sources */,
+				AB968F2422DF3EFE00D024DE /* Frameworks */,
+				AB968F2522DF3EFE00D024DE /* Resources */,
+				8ECE10C0DF7AD06370B6222C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB968F2922DF3EFE00D024DE /* PBXTargetDependency */,
+			);
+			name = RedeSocialUITests;
+			productName = RedeSocialUITests;
+			productReference = AB968F2722DF3EFE00D024DE /* RedeSocialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB968F0022DF3EFB00D024DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Cubos;
+				TargetAttributes = {
+					AB968F0722DF3EFB00D024DE = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					AB968F1B22DF3EFE00D024DE = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = AB968F0722DF3EFB00D024DE;
+					};
+					AB968F2622DF3EFE00D024DE = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = AB968F0722DF3EFB00D024DE;
+					};
+				};
+			};
+			buildConfigurationList = AB968F0322DF3EFB00D024DE /* Build configuration list for PBXProject "RedeSocial" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB968EFF22DF3EFB00D024DE;
+			productRefGroup = AB968F0922DF3EFB00D024DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB968F0722DF3EFB00D024DE /* RedeSocial */,
+				AB968F1B22DF3EFE00D024DE /* RedeSocialTests */,
+				AB968F2622DF3EFE00D024DE /* RedeSocialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB968F0622DF3EFB00D024DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB968F1622DF3EFD00D024DE /* LaunchScreen.storyboard in Resources */,
+				AB968F1322DF3EFD00D024DE /* Assets.xcassets in Resources */,
+				AB968F1122DF3EFB00D024DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB968F1A22DF3EFE00D024DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB968F2522DF3EFE00D024DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A4744096F31177D4267B552 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RedeSocialTests/Pods-RedeSocialTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicBlurView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RedeSocialTests/Pods-RedeSocialTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0FD28284D81BD76D4C152C1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RedeSocialTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41084290721AF6E44E8474D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RedeSocial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C661742468F02518DA44C71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RedeSocialUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ECE10C0DF7AD06370B6222C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RedeSocialUITests/Pods-RedeSocialUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicBlurView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RedeSocialUITests/Pods-RedeSocialUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4F4683A9BF7D5B0106A1DD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RedeSocial/Pods-RedeSocial-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicBlurView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RedeSocial/Pods-RedeSocial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB968F0422DF3EFB00D024DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB968F0E22DF3EFB00D024DE /* ViewController.swift in Sources */,
+				AB968F0C22DF3EFB00D024DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB968F1822DF3EFE00D024DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB968F2122DF3EFE00D024DE /* RedeSocialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB968F2322DF3EFE00D024DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB968F2C22DF3EFE00D024DE /* RedeSocialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB968F1E22DF3EFE00D024DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB968F0722DF3EFB00D024DE /* RedeSocial */;
+			targetProxy = AB968F1D22DF3EFE00D024DE /* PBXContainerItemProxy */;
+		};
+		AB968F2922DF3EFE00D024DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB968F0722DF3EFB00D024DE /* RedeSocial */;
+			targetProxy = AB968F2822DF3EFE00D024DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB968F0F22DF3EFB00D024DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB968F1022DF3EFB00D024DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB968F1422DF3EFD00D024DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB968F1522DF3EFD00D024DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB968F2E22DF3EFE00D024DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB968F2F22DF3EFE00D024DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB968F3122DF3EFE00D024DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F75EFBD06C8412FB57B3065 /* Pods-RedeSocial.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EUA7JV3LL9;
+				INFOPLIST_FILE = RedeSocial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.redesocial.RedeSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AB968F3222DF3EFE00D024DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7B8CAA2571959B8CC2D9527 /* Pods-RedeSocial.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EUA7JV3LL9;
+				INFOPLIST_FILE = RedeSocial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.redesocial.RedeSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AB968F3422DF3EFE00D024DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC8FD9B1801F9C96AC64D336 /* Pods-RedeSocialTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EUA7JV3LL9;
+				INFOPLIST_FILE = RedeSocialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.redesocial.RedeSocialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedeSocial.app/RedeSocial";
+			};
+			name = Debug;
+		};
+		AB968F3522DF3EFE00D024DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A36286F31ED58499B69623D /* Pods-RedeSocialTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EUA7JV3LL9;
+				INFOPLIST_FILE = RedeSocialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.redesocial.RedeSocialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedeSocial.app/RedeSocial";
+			};
+			name = Release;
+		};
+		AB968F3722DF3EFE00D024DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F05F438F6F2D0149618DB5 /* Pods-RedeSocialUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EUA7JV3LL9;
+				INFOPLIST_FILE = RedeSocialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.redesocial.RedeSocialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RedeSocial;
+			};
+			name = Debug;
+		};
+		AB968F3822DF3EFE00D024DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 539A8DDD8A4B9FBFDC486911 /* Pods-RedeSocialUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EUA7JV3LL9;
+				INFOPLIST_FILE = RedeSocialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.redesocial.RedeSocialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RedeSocial;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB968F0322DF3EFB00D024DE /* Build configuration list for PBXProject "RedeSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB968F2E22DF3EFE00D024DE /* Debug */,
+				AB968F2F22DF3EFE00D024DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB968F3022DF3EFE00D024DE /* Build configuration list for PBXNativeTarget "RedeSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB968F3122DF3EFE00D024DE /* Debug */,
+				AB968F3222DF3EFE00D024DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB968F3322DF3EFE00D024DE /* Build configuration list for PBXNativeTarget "RedeSocialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB968F3422DF3EFE00D024DE /* Debug */,
+				AB968F3522DF3EFE00D024DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB968F3622DF3EFE00D024DE /* Build configuration list for PBXNativeTarget "RedeSocialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB968F3722DF3EFE00D024DE /* Debug */,
+				AB968F3822DF3EFE00D024DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB968F0022DF3EFB00D024DE /* Project object */;
+}

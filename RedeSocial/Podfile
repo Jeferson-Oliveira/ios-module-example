@@ -1,0 +1,67 @@
+
+#Global config
+
+platform :ios, '10.0'
+use_frameworks!
+workspace 'RedeSocial'
+
+# methods used across targets
+
+def networkPods 
+  pod 'Alamofire', '5.0.0-beta.6'
+end
+
+def uiPods 
+  pod 'PopupDialog', '1.1.0'
+end
+
+def viewCodingPods
+  pod 'SnapKit'
+end
+
+#targets
+target 'RedeSocial' do
+
+  project 'RedeSocial'
+  networkPods
+  uiPods
+  viewCodingPods
+  
+  target 'RedeSocialTests' do
+    inherit! :search_paths
+    networkPods
+    uiPods
+  end
+
+  target 'RedeSocialUITests' do
+    inherit! :search_paths
+    networkPods
+    uiPods
+  end
+
+end
+
+target 'CommonModule' do
+  
+  project 'Modulos/CommonModule/CommonModule'
+  networkPods
+  uiPods
+  target 'CommonModuleTests' do
+    networkPods
+  end
+
+end
+
+target 'NoticiasModule' do
+  
+  project 'Modulos/NoticiasModule/NoticiasModule'
+  networkPods
+  uiPods
+  viewCodingPods
+  
+  target 'NoticiasModuleTests' do
+    networkPods
+    uiPods
+  end
+
+end
